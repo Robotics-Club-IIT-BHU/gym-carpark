@@ -1,9 +1,10 @@
 # AUTONOMOUS CAR PARKING
 
 Autonomous parking management through Multi-Agent Reinforcement Learning.
+
 <p align="center">
  <img  width="400" height="250" src="https://github.com/Robotics-Club-IIT-BHU/gym-carpark/blob/main/media/parking.gif">
- <!-- <img  width="400" height="250" src="https://github.com/Robotics-Club-IIT-BHU/Vision-2.0-2020-Arena/blob/main/media/husky.gif"><br> -->
+ <img  width="400" height="250" src="https://github.com/Robotics-Club-IIT-BHU/gym-carpark/blob/main/media/full-parking.png"><br>
 </p>
 
 ## Installation Guidelines
