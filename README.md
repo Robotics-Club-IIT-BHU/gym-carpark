@@ -24,3 +24,19 @@ Before installing this arena, you need to download certain modules on which it i
       ~~~
 
 In case there are problems with the PyBullet installation, you can refer to this [guide](https://github.com/Robotics-Club-IIT-BHU/Robo-Summer-Camp-20/blob/master/Part1/Subpart%201/README.md).
+
+## Using the Arena
+
+0. You will have to import the package vision_arena, which will be available only if you've completed step 1 in the Installation Guidelines. The arena can be initialized by using:
+
+   ~~~python
+   env = gym.make("carpark_arena-v0")
+   ~~~
+
+   gym.make() itself takes some arguments, which will be elaborated upon further.
+
+1. Then, you will have to create the working loop, as is normally done in pybullet (using `stepSimulation()`).
+
+2. The functions of the environment, available to you for various purposes, are as follows. Please go through the functions themselves in this [file](https://github.com/Robotics-Club-IIT-BHU/gym-carpark/blob/main/carpark-arena/carpark_arena/envs/simpleDrivingEnv.py), if you wish to know their arguments and/or return values.
+
+3. You can also run the file **helper.py** to see the documentation of the different various functions.

@@ -281,6 +281,18 @@ class SimpleDrivingEnv(gym.Env):
                 car.apply_action(self.ra[idx], discrete = True)
 
     def step(self, action):
+        """
+        Takes one step.
+
+        Arguments:\n
+            - action -- A list of the form [throttle, steering_angle]
+
+        Return:\n
+            - obs -- The observation of the next state
+            - reward -- The reward for the current time step
+            - done -- True if the episode is complete, else False
+            - info -- Additional Information
+        """
         # Feed action to the car and get observation of car's state
         self.t.apply_action(action)
         if self.shouldParkedCarsBeMovedBackAndForth:
@@ -351,10 +363,12 @@ class SimpleDrivingEnv(gym.Env):
         return ob, reward, self.done, dict()
 
     def seed(self, seed=None):
+        """Getting the seed of the environment"""
         self.np_random, seed = gym.utils.seeding.np_random(seed)
         return [seed]
 
     def close(self):
+        """Shuts down the simulation"""
         p.disconnect(self.client)
 
 
