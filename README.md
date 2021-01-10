@@ -1,6 +1,10 @@
 # AUTONOMOUS CAR PARKING
 
-Autonomous parking management through MARL
+Autonomous parking management through Multi-Agent Reinforcement Learning.
+<p align="center">
+ <img  width="400" height="250" src="https://github.com/Robotics-Club-IIT-BHU/gym-carpark/blob/main/media/parking.gif">
+ <!-- <img  width="400" height="250" src="https://github.com/Robotics-Club-IIT-BHU/Vision-2.0-2020-Arena/blob/main/media/husky.gif"><br> -->
+</p>
 
 ## Installation Guidelines
 
@@ -40,3 +44,5 @@ In case there are problems with the PyBullet installation, you can refer to this
 2. The functions of the environment, available to you for various purposes, are as follows. Please go through the functions themselves in this [file](https://github.com/Robotics-Club-IIT-BHU/gym-carpark/blob/main/carpark-arena/carpark_arena/envs/simpleDrivingEnv.py), if you wish to know their arguments and/or return values.
 
 3. You can also run the file **helper.py** to see the documentation of the different various functions.
+
+4. An example of how the arena works is given in the file **manual_control.py**, which contains the mechanism for controlling the car manually, for testing purposes.
