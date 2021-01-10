@@ -10,9 +10,6 @@ env = gym.make(
 action = [0.0, 0.0]
 env.reset(
     shouldParkedCarsBeLoaded = True,
-    # left_parking_location = 1,
-    right_parking_location = 2,
-    shouldParkedCarsBeMovedBackAndForth = True,
 )
 done = False
 
