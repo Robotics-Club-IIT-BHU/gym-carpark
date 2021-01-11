@@ -47,3 +47,34 @@ In case there are problems with the PyBullet installation, you can refer to this
 3. You can also run the file **helper.py** to see the documentation of the different various functions.
 
 4. An example of how the arena works is given in the file **manual_control.py**, which contains the mechanism for controlling the car manually, for testing purposes.
+
+
+## Made and maintained by ✨
+
+
+
+## Advisors and Mentors 
+<table>
+   <td align="center">
+      <a href="https://github.com/lok-i">
+         <img src="https://avatars1.githubusercontent.com/u/54435909?s=460&u=29af076049dab351b2e43621e9a433919bf50fb1&v=43" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Lokesh Krishna</b>
+         </sub>
+      </a>
+      <br />
+   </td>   
+   <td align="center">
+      <a href="https://github.com/NiranthS">
+         <img src="https://avatars3.githubusercontent.com/u/44475481?s=400&v=4" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Niranth Sai</b>
+         </sub>
+      </a>
+      <br />
+   </td>   
+</table>
+
+
