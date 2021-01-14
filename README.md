@@ -48,12 +48,52 @@ In case there are problems with the PyBullet installation, you can refer to this
 
 4. An example of how the arena works is given in the file **manual_control.py**, which contains the mechanism for controlling the car manually, for testing purposes.
 
-
 ## Made and maintained by ✨
 
+<table>
+   <td align="center">
+      <a href="https://github.com/Ajasra22">
+         <img src="https://avatars3.githubusercontent.com/u/60650011?s=400&v=4" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Ajasra Gupta</b>
+         </sub>
+      </a>
+      <br />
+   </td>
+   <td align="center">
+      <a href="https://github.com/Vikhyath08">
+         <img src="https://avatars2.githubusercontent.com/u/55887656?s=460&u=182d39459bf2d06f889fb2d6f90e1a400756ad95&v=4" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Vikhyath Venkatraman</b>
+         </sub>
+      </a>
+      <br />
+   <td align="center">
+      <a href="https://github.com/prince-0911">
+         <img src="https://avatars0.githubusercontent.com/u/60649809?s=400&v=4" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Prince Kumar Gond</b>
+         </sub>
+      </a>
+      <br />
+   </td>
+   <td align="center">
+      <a href="https://github.com/amarkeshri28">
+         <img src="https://avatars3.githubusercontent.com/u/58410387?s=400&v=4" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Amarjeet Keshri</b>
+         </sub>
+      </a>
+      <br />
+   </td>
+</table>
 
+## Advisors and Mentors
 
-## Advisors and Mentors 
 <table>
    <td align="center">
       <a href="https://github.com/lok-i">
@@ -64,7 +104,7 @@ In case there are problems with the PyBullet installation, you can refer to this
          </sub>
       </a>
       <br />
-   </td>   
+   </td>
    <td align="center">
       <a href="https://github.com/NiranthS">
          <img src="https://avatars3.githubusercontent.com/u/44475481?s=400&v=4" width="100px;" alt=""/>
@@ -74,7 +114,5 @@ In case there are problems with the PyBullet installation, you can refer to this
          </sub>
       </a>
       <br />
-   </td>   
+   </td>
 </table>
-
-
